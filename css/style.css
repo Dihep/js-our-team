@@ -1,0 +1,14 @@
+/* Stili universali */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dark-mode */
+HTML, header, main, footer {
+    background-color: black;
+    color: white;
+}
+
+/* Stili generali */
