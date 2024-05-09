@@ -12,6 +12,16 @@ HTML, header, main, footer {
 }
 
 /* Stili main */
-.teamMember {}
+.teamMember {
+    border: 1px white solid;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
 
-.attribute {}
+.attribute {
+    background-color: rgb(0, 0, 140);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    margin-right: 2rem;
+}
