@@ -7,3 +7,5 @@ const team = [
     {nome:`Scott Estrada`, ruolo:`Developer`, immagine:`scott-estrada-developer.jpg`},
     {nome:`Barbara Ramos`, ruolo:`Graphic Designer`, immagine:`barbara-ramos-graphic-designer.jpg`}
 ]
+
+stampaConsole(team);
