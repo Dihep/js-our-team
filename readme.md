@@ -11,3 +11,8 @@ Stampare su console, per ogni menbro del team, nome e ruolo.
 
 MILESTONE #2
 Stampare in pagina, per ogni membro del team, nome, ruolo ed immagine come stringhe.
+
+----------------------------------------------------------
+
+BONUS #1
+Trasformare il testo col percorso della foto in una immagine effettiva.

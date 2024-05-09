@@ -18,10 +18,16 @@ function stampaInPagina(arrayOggetti) {
         outDiv.classList.add("teamMember");
         //Stampa delle proprietà
         for (const key in teamMember) {
-            let outSpan = document.createElement("span");
-            outSpan.classList.add("attribute")
-            outSpan.innerText = `${key}: ${teamMember[key]}`;
-            outDiv.append(outSpan);
+            if (key=="Immagine") {
+                let outImg = document.createElement("img")
+                outImg["src"]=`./img/${teamMember[key]}`;
+                outDiv.append(outImg);
+            } else {
+                let outSpan = document.createElement("span");
+                outSpan.classList.add("attribute")
+                outSpan.innerText = `${key}: ${teamMember[key]}`;
+                outDiv.append(outSpan);
+            }
         }
         target.append(outDiv);
     });

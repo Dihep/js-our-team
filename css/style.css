@@ -17,6 +17,8 @@ HTML, header, main, footer {
     border-radius: 0.5rem;
     padding: 1rem;
     margin: 0.5rem;
+    display: flex;
+    align-items: center;
 }
 
 .attribute {
